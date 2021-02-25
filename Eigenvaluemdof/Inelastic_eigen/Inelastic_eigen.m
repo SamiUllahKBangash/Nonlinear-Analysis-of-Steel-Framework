@@ -139,16 +139,7 @@ end
 criticalratio_inelastic=lamdabar
 buckledconfig
 
-%{
-TO DO:
-Try inverse iteration method and compare to power method
 
-Try midpoint RK2 approach for running lamdainelastic function call
-(i.e. use RK2 to form tangent Ke and fint state determination
-
-compare with stability function approach using polynomial expansion
-
-%}
 
 
 
