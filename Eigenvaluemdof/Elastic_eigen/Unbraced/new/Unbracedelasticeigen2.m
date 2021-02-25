@@ -145,18 +145,7 @@ end
 lamdacritical
 %buckledconfig
 
-%TO DO:
-%To incorporate inverse iteration scheme for the cubic Hermitian approach with
-%relaxation schemes to improve convergence rate.
-%As a sidekick, compare cubic hermitian with coupled truss formulation
-%To acknowledge and demonstrate the fact that stability function approach,while being
-%most accurate depiction of P-delta effect, is inefficient for solving
-%large problem sizes. In that case, we need to do the following:
-%Use DOF constraining schemes to condense/reduce DOF size (See Ziemian
-%Appendix. Compare the results with Standard Power Method using Cubic
-%Hermitian.
 
-%Also, we must plot buckled configuration for post processing purposes.
 
 
 
