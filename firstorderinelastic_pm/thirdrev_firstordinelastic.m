@@ -7,12 +7,7 @@
 %arrays by tau as well and move to next load step with some user defined
 %dlamda_1 (subject to user discretion.)
 
-%Note: the process described above is different from whats done in
-%first_revision_firstorderinelastic_pm script. There we redo the current dlamda with
-%tau factor improvement (if any) and repeat the whole algorithm in normal
-%manner. This approach will be required when we are using second order
-% inelastic analysis since multiple iterations might be reqd for
-%satisfying changing deformed configuration and yield surface deviations.
+
 
 
 clc;clear all;
