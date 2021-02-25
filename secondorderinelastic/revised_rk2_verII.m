@@ -685,41 +685,6 @@ title({'P-M trace history';['Member# ',num2str(memberno),'. location: ',location
 
 
 
-%{
-To Do:
-as of now, three variants of rk-2 have been devised:
-
-ORBINSON MCGUIRE APPROACH:
-Once a load step that satisfies surface drift tolerance
-has been computed, we compute G(i+1) array at tol-surface (in case point has
-converged on tol-surface or run falsi-midstep routine to create a
-fictitious surface and evaluate G(i+1) upon that. We also store G(i) based
- on the previously converged load step. Then we re-run for
-loadstep/2 and store midstep fint and nodal coordinate values. Next, we
-form K-corrector by feeding mid step fint, nodexy, and G-corrector to the
-kelemp-predictor routine. Kcorrector is assembled globally and the step is
-re-run again with full dlamda and K corrector to evaluate corrected system
-variables. Corrected fint and phi arrays are formed and tau is computed. if
-tau exists, the whole cycle is repeated again until corrected state is
-within surface tolerance. Lastly, fint points are projected back to the
-surface using radial/normal projection routines and system is marched
-forward by updating FINT and nodes-updated arrays. G-corrector is defined
-as =(G(i+1)+G(i))/2
-
-MODIFIED MCGUIRE APPROACH:
-The process is vitually the same as above. However instead of using
-G-corrector as above, G is explicitly computed at midstep within the
-kelemp-predictor by calling falsi-midstep routine from within the
-kelemp-predictor function. This is arguably  a more rational G-corrector
-since its a true midstep G representative candidate. Rest of the steps are the
-same.
-
-MID-STEP PROJECTION APPROACH:
-Instead of evaluating fint and G at the midpoint step as discussed 'above',
-consider another viewpoint; one can project the fint at midstep back to the
-original yield surface and use the projected state to evaluate K-corrector.
-%}
-
 
 
 
