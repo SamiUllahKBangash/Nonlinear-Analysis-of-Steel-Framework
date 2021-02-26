@@ -1,4 +1,4 @@
-%Welcome to Elastic Eigenvalue analysis for 2D Steel Frame Structures.
+%Welcome to In-Elastic Eigenvalue analysis for 2D Steel Frame Structures.
 %Standard stiffness based finite element concepts are employed in a small-
 %strain but moderate rotation setting. Cubic Hermitian Geometric Stiffness
 %Matrix is used to approximate second order axial flexural coupling. Power
@@ -17,6 +17,7 @@ n=150         %no of incremental steps for Stiffness Matrix and fint Calculation
 tol=1e-6       %tolerance parameter for Power Iteration Convergence
 tau_factor=0.1 %lower bound lamdabar factor for falsi iteration
 rk2_flag=true; %Flag to activate RK-2 type incremental Ke/Kg solver
+
 %---------------------System Variable Initialization-----------------------
 for i=1:1
     Nel=size(elems,1);          %No of frame elements
@@ -46,14 +47,12 @@ for ii=1:size(loads,1)
     Pref(thisdof)=loads(ii,3);
 end
 
-%---------------Population of Contrained Displacement DOFS----------------
+%---------------Population of Constrained Displacement DOFS----------------
 
 dofspec=[]; %constrained DOFs Array
 for ii=1:size(bcs,1)
     thisdof=3*(bcs(ii,1)-1) + bcs(ii,2);
     dofspec=[dofspec thisdof];
-    %u(thisdof)=bcs(ii,3);    %currently,the code doesn't account for nonlinear node settlement cases.
-    %du(thisdof)=bcs(ii,3);
 end
 doffree=alldofs;
 doffree(dofspec)=[]; %alldofs= (doffree + dofspec)
