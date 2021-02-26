@@ -406,23 +406,3 @@ plot(abs(Mtrace),abs(Ptrace),'*',M_curve,P_curve)
 xlabel('Moment/Kin')
 ylabel('Axial Force/K')
 title({'P-M trace history';['Member# ',num2str(memberno),'. location: ',location]})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
