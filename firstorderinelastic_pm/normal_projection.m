@@ -24,10 +24,5 @@ S=vpasolve(eq1,eq2,eq3,vars,range);
 msol=S.m;
 psol=S.p;
 alphasol=S.alp;
-%{
-I=find((S.m)*m1>0 & (S.p)*p1>0 );
-mcorrec=S.m(I);
-pcorrec=S.p(I);
-%alpha=S.alp(I)
-%}
+
 end
