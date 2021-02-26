@@ -1,11 +1,5 @@
 function [correc]=radial_projection(pvalue,mvalue,tol2,flag)
-%here we will compare two approaches for drift correction:
-%option a: correction along tolerable yield surface's normal
-%option b: correction along vector connecting fintcurrent point to yield surface
-%origin [0 0]
 %------------------------option b------------------------------------------
-
-
 if flag==1
     p=0;
     m=0;
@@ -52,14 +46,3 @@ else
     correc=tau_r*[dp;dm];
 end
 end
-
-
-
-
-
-
-
-
-
-
-
