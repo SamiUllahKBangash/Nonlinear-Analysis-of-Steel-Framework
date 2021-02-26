@@ -1,5 +1,5 @@
 %Welcome. This routine performs elastic critical buckling load analysis of
-%UNBRACED-Planar-Steel-Frames. Multiple options are provided to run critical
+%BRACED-Planar-Steel-Frames. Multiple options are provided to run critical
 %analysis namely Power Method, polynomial expansion and Stability
 %Functions. Power Method and polynomial expansion require the use of Cubic
 %Hermitian Matrix to approximate Geometric Stiffness effect. Overall goal
