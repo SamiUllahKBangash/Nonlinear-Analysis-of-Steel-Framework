@@ -1,11 +1,4 @@
-%Welcome to Second-Order-Inelastic RK-2 Routine. Standard Force Recovery
-%with cubic Hermitian Geometric Stiffness(Kg) and P-M yielding Matrix(Km) are
-%employed in a 2-D Framework setting.
-%Version1: G array is formed on a fictitious isotropically expanded yield
-%surface for yielded member ends. The surface is approximated upon the
-%midstep fint p,m point(s). Kg matrix is formed using midstep fint point(s)
-%without yield surface projection.
-
+%Welcome to Second-Order-Inelastic RK-2 Routine.VersionI
 
 clc; clear all;
 
@@ -614,34 +607,3 @@ plot(abs(Mtrace),abs(Ptrace),'*',M_curve,P_curve)
 xlabel('Moment/Kin')
 ylabel('Axial Force/K')
 title({'P-M trace history';['Member# ',num2str(memberno),'. location: ',location]})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
