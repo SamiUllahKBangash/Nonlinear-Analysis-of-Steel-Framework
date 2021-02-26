@@ -18,7 +18,7 @@ for i=1:n
         if fint(1,iel) > 0
             stress_axial=(fint(1,iel)/A);
             if stress_axial>= 0.5*Fy && stress_axial<Fy
-                E=4*E*((stress_axial/Fy)*(1 - (stress_axial/Fy)));
+                E=4*E*((stress_axial/Fy)*(1 - (stress_axial/Fy)));    %Ziemian 10.20
             elseif stress_axial>=Fy
                 E=eps*E;
                 %E=0;
