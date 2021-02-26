@@ -7,9 +7,6 @@
 %arrays by tau as well and move to next load step with some user defined
 %dlamda_1 (subject to user discretion.)
 
-
-
-
 clc;clear all;
 %format long
 %--------------------------Input file-------------------------------------
@@ -369,19 +366,7 @@ xlabel('Moment/Kin')
 ylabel('Axial Force/K')
 title({'P-M trace history';['Member# ',num2str(memberno),'. location: ',location]})
 
-%the script below filters out the hingetable to include first hinge
-%formation events only.
-%{
-hingebook(1,:)=hingetable(1,:);
-for i=2:size(hingetable(:,1))
-      %if ~(find(hingebook(:,[1 2])==hingetable(i,1)) && find(hingebook(:,2)==hingetable(i,2)))
-      if find(hingebook(:,1)==hingetable(i,1))
-         if find(hingebook(
-          
-          hingebook(i,:)=hingetable(i,:);
-      end
-end
-%}
+
 
 
 
