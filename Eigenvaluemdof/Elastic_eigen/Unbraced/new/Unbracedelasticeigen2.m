@@ -3,7 +3,7 @@
 %analysis namely Power Method, polynomial expansion and Stability
 %Functions. Power Method and polynomial expansion require the use of Cubic
 %Hermitian Matrix to approximate Geometric Stiffness effect. Overall goal
-%is to compare the performance of Cubic Hermitian Matric with the more
+%is to compare the performance of Cubic Hermitian Matrix with the more
 %accurate Stability Functions. Also, the most important benefit of Power
 %Method is highlighted i.e. its ability to handle arbitrarily large frame
 %sizes due to superior performance/stability and convergence rate
@@ -84,7 +84,6 @@ for iel=1:Nel
         [kg_global,kg_local,~]=kelem_geom(nodexy,Pj);
     else
         [kg_global,kg_local,~]=kelem_geom_exact(nodexy,Pj,E,A,I);
-        %[kg_global,kg_local,T]=kelem_geom_exact2(nodexy,Pj,E,I,A);
     end
     
     Kg(eldofs,eldofs)=Kg(eldofs,eldofs) + kg_global;
