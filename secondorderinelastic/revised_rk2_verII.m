@@ -1,13 +1,4 @@
 %Welcome to 2nd Order Inlelastic RK-2 Routine Version II.
-%fint-Predictor values for yielding member ends will be projected back to
-%yield surface (using either normal or radial projection) prior to
-%K-corrector evaluation. Also kelemp-secondorder-predictor function will be
-%modified by removing falsi-midstep routine and evaluating G based on the
-%original yield surface gradient expression. Rest of the procedure is same
-%as version I. 
-
-
-
 clc; clear all;
 
 %--------------------------Input file-------------------------------------
@@ -682,33 +673,3 @@ plot(abs(Mtrace),abs(Ptrace),'*',M_curve,P_curve)
 xlabel('Moment/Kin')
 ylabel('Axial Force/K')
 title({'P-M trace history';['Member# ',num2str(memberno),'. location: ',location]})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
