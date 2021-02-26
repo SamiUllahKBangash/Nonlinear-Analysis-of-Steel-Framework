@@ -82,19 +82,3 @@ end
 kt_L=ke_L+kg_L+km_L;
 kt_G= T'*kt_L*T;
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
