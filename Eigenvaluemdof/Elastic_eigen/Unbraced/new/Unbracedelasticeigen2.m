@@ -1,13 +1,7 @@
 %Welcome. This routine performs elastic critical buckling load analysis of
 %UNBRACED-Planar-Steel-Frames. Multiple options are provided to run critical
 %analysis namely Power Method, polynomial expansion and Stability
-%Functions. Power Method and polynomial expansion require the use of Cubic
-%Hermitian Matrix to approximate Geometric Stiffness effect. Overall goal
-%is to compare the performance of Cubic Hermitian Matrix with the more
-%accurate Stability Functions. Also, the most important benefit of Power
-%Method is highlighted i.e. its ability to handle arbitrarily large frame
-%sizes due to superior performance/stability and convergence rate
-
+%Functions. 
 
 %clc; clear all;
 
