@@ -1,6 +1,5 @@
 # MASTAN2-Modules
 This repository contains MATLAB scripts for running Eigenvalue and Second Order Inelastic Analysis inspired from MASTAN2 Software.
-https://zenodo.org/badge/latestdoi/342299192
 
 Acknowledgements:
 I am extremely thankful to Dr. Ricardo A. Herrera and Dr. Arif Masud for offering their Courses on Nonlinear Analysis at UIUC in Fall 2017. I am also indebted to Dr. Larry
