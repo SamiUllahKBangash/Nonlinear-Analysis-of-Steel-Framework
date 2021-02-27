@@ -8,14 +8,7 @@ function [kg_global,kg_local,T]=kelem_geom_exact(nodexy,Pj,E,I)
 % I : Second moment of area
 E1 =nodexy(2,:) - nodexy(1,:);
 L = norm(E1);
-%E1 = E1/L;
-%E2 = [-E1(2) E1(1)];
-%Qrot = [E1(1) E1(2) 0;
- %   -E1(2)  E1(1) 0;
-  %  0       0   1];
-%Qrot(3,3) = 1;
-%T = [Qrot zeros(3);
- %   zeros(3) Qrot];
+
 T=eye(2);
 
 syms x real
@@ -50,9 +43,3 @@ kg=(E*I/L)*[4*phi_3   2*phi_4;
 kg_local=kg;
 kg_global=T'*kg_local*T;
 end
-
-
-
-
-
-
