@@ -1,14 +1,7 @@
 %Welcome. This routine performs elastic critical buckling load analysis of
 %BRACED-Planar-Steel-Frames. Multiple options are provided to run critical
 %analysis namely Power Method, polynomial expansion and Stability
-%Functions. Power Method and polynomial expansion require the use of Cubic
-%Hermitian Matrix to approximate Geometric Stiffness effect. Overall goal
-%is to compare the performance of Cubic Hermitian Matric with the more
-%accurate Stability Functions. Also, the most important benefit of Power
-%Method is highlighted i.e. its ability to handle arbitrarily large frame
-%sizes due to superior performance/stability and convergence rate
-
-%Note: This is the full version of Braced Frame Elastic Critical Analysis 
+%Functions.Note: This is the full version of Braced Frame Elastic Critical Analysis 
 %Routine. Here the standard DOF numbering of 3DOF per node is retained.
 %Consequently, the standard geometric and stability matrices are employed
 %and bracing condition is defined explicitly in the input file. 
