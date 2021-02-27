@@ -137,26 +137,3 @@ end
 
 criticalratio_inelastic=lamdabar
 buckledconfig
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
