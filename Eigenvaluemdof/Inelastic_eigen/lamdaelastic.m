@@ -66,13 +66,3 @@ end
 lamda=lamdacritical; %Critical Load Ratio Multiplier
 
 end
-
-
-
-
-    
-    
-
-
-
-
