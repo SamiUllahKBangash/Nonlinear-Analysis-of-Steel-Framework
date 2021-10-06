@@ -12,6 +12,7 @@ References:
 4 Independent Study conducted by me under the supervision of Dr. Larry Fahnestock at UIUC on the topic of Multi-Tiered Eccentrically Braced Frames https://www.researchgate.net/publication/348630080_Link_Stability_Analysis_of_Multi-Tiered_Eccentrically_Braced_Frames
 
 Acknowledgements:
+
 Thank you from the core of my heart to the US Congress and Department of State's (ECA) and USEFP for funding my Fulbright Masters Program and providing students from Pakistan an opportunity to study with the best minds.
 
 To "Equilibrium on deformed Configuration" 
