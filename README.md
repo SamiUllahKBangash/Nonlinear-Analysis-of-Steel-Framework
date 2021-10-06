@@ -2,6 +2,7 @@
 This repository contains MATLAB scripts for running Eigenvalue and Second Order Inelastic Analysis inspired from MASTAN2 Software. Lumped Plasticity Formulation has been implemented using Plastic Reduction Matrices while Green-Lagrange Strain definition has been utilized to implement geometric nonlinearity. In addition, Elastic and In-Elastic Eigenvalue Buckling modules have been provided for running Instability Analysis for 2D and 3D Frame Geometry. 
 
 References:
+
 1 Matrix Structural Analysis , McGuire and Ziemian et al
 
 2 Nonlinear Analysis Course Notes at UIUC by Dr. Ricardo A. Herrera and Dr. Arif Masud
