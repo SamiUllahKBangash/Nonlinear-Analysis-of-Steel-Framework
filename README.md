@@ -3,8 +3,11 @@ This repository contains MATLAB scripts for running Eigenvalue and Second Order 
 
 References:
 1 Matrix Structural Analysis , McGuire and Ziemian et al
+
 2 Nonlinear Analysis Course Notes at UIUC by Dr. Ricardo A. Herrera and Dr. Arif Masud
+
 3 MATLAB linear elastic modules by Dr. Arun Prakash , https://engineering.purdue.edu/~aprakas/teaching.htm
+
 4 Independent Study conducted by me under the supervision of Dr. Larry Fahnestock at UIUC on the topic of Multi-Tiered Eccentrically Braced Frames https://www.researchgate.net/publication/348630080_Link_Stability_Analysis_of_Multi-Tiered_Eccentrically_Braced_Frames
 
 Acknowledgements:
