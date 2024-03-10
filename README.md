@@ -12,7 +12,6 @@ References:
 
 3 MATLAB linear elastic modules by Dr. Arun Prakash , https://engineering.purdue.edu/~aprakas/teaching.htm
 
-4 Independent Study conducted by me under the supervision of Dr. Larry Fahnestock at UIUC on the topic of Multi-Tiered Eccentrically Braced Frames https://www.researchgate.net/publication/348630080_Link_Stability_Analysis_of_Multi-Tiered_Eccentrically_Braced_Frames
 
 Acknowledgements:
 
